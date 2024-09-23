@@ -82,8 +82,8 @@ pub fn two_sum(nums: &[i64], target: i64) -> Option<(usize, usize)> {
     if target > 10000000 {
         return None;
     }
-    
-    // we assume there is exactly one combination so we chose the actual value as a key and index 
+
+    // we assume there is exactly one combination so we chose the actual value as a key and index
     // as a value, since there should't be any overriding of values who are part of the combination
     let mut index_to_num: HashMap<i64, usize> = HashMap::new();
     let mut first_index: usize = 0;
