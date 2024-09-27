@@ -5,4 +5,5 @@ pub mod arrays_and_hashing {
     pub mod top_k_frequent_elements;
     pub mod two_integer_sum;
     pub mod valid_anagram;
+    pub mod valid_sudoku;
 }
