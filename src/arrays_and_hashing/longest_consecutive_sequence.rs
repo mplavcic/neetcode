@@ -28,10 +28,9 @@ use std::collections::HashSet;
 fn longest_consecutive(nums: &[i64]) -> u64 {
     let mut longest = 0;
 
-    let seen: HashSet<i64> = nums.iter().cloned().collect(); 
+    let seen: HashSet<i64> = nums.iter().cloned().collect();
 
     for num in seen.iter() {
-
         let mut temp_longest = 1;
         let mut i = 1;
         let mut j = 1;

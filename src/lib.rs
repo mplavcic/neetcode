@@ -8,3 +8,7 @@ pub mod arrays_and_hashing {
     pub mod valid_anagram;
     pub mod valid_sudoku;
 }
+
+pub mod two_pointers {
+    pub mod valid_palindrome;
+}
