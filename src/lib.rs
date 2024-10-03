@@ -10,6 +10,7 @@ pub mod arrays_and_hashing {
 }
 
 pub mod two_pointers {
+    pub mod three_sum;
     pub mod two_integer_sum_2;
     pub mod valid_palindrome;
 }
